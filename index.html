@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Seed the Future</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Seed the Future</h1>
+        <p>Cultivate Change, One Seed at a Time</p>
+    </header>
+
+    <nav>
+        <!-- Add navigation links here -->
+    </nav>
+
+    <main>
+        <section class="about">
+            <h2>About Us</h2>
+            <!-- Add about content here -->
+        </section>
+
+        <section class="how-it-works">
+            <h2>How It Works</h2>
+            <!-- Add how-it-works content here -->
+        </section>
+
+        <section class="impact">
+            <h2>Impact</h2>
+            <!-- Add impact content here -->
+            <p>Seeds Donated: <span id="seed-counter">0</span></p>
+
+        </section>
+
+        <section class="get-involved">
+            <h2>Get Involved</h2>
+            <!-- Add get-involved content here -->
+            <button id="donate-button" onclick="showDonateModal()">Donate a Seed</button>
+            <div id="donate-modal" class="modal">
+                <div class="modal-content">
+                  <span class="close" onclick="closeDonateModal()">&times;</span>
+                  <h2>Donate a Seed</h2>
+                  <form>
+                    <!-- Donate form fields -->
+                  </form>
+                </div>
+              </div>
+            <button id="plant-button" onclick="showPlantModal()">Plant a Seed</button>
+            <div id="plant-modal" class="modal">
+                <div class="modal-content">
+                  <span class="close" onclick="closePlantModal()">&times;</span>
+                  <h2>Plant a Seed</h2>
+                  <form>
+                    <!-- Plant form fields -->
+                  </form>
+                </div>
+              </div>
+        </section>
+
+        <section class="seed-bank">
+            <h2>Seed Bank</h2>
+            <!-- Add seed-bank content here -->
+            <div id="virtual-garden"></div>
+        </section>
+
+        <section class="partnerships">
+            <h2>Partnerships</h2>
+            <!-- Add partnerships content here -->
+        </section>
+
+        <section class="blog">
+            <h2>Blog</h2>
+            <!-- Add blog content here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact us at: contact@seedthefuture.com</p>
+    </footer>
+</body>
+</html>
